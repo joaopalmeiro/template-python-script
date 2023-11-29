@@ -1,0 +1,7 @@
+required-version = "0.1.6"
+target-version = "py310"
+
+extend-select = ["I"]
+
+[lint.isort]
+combine-as-imports = true
