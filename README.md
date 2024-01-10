@@ -33,7 +33,7 @@ pyenv install && pyenv versions
 ```
 
 ```bash
-pip install pipenv && pipenv --version
+pip install pipenv==2023.11.15 && pipenv --version
 ```
 
 ```bash
