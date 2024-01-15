@@ -14,6 +14,12 @@
 
 - `pipenv install --skip-lock tinycss2==1.2.1 w3lib==2.1.2 && pipenv install --dev --skip-lock ruff==0.1.11`
 
+### Snippets
+
+```markdown
+8. Open the [NOTES.md](NOTES.md) file and install the dependencies according to the [`Example command to install dependencies and development dependencies`](NOTES.md#example-command-to-install-dependencies-and-development-dependencies). Use the first command in the [`Commands` section](NOTES.md#commands) as a template.
+```
+
 ## Commands
 
 ```bash

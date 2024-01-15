@@ -22,7 +22,7 @@ npx degit github:joaopalmeiro/template-python-script --force
 5. Search for `João Palmeiro` and replace it with the author's name.
 6. Run the first two commands in the [`Development` section](#development) to install [pyenv](https://github.com/pyenv/pyenv) and [Pipenv](https://github.com/pypa/pipenv) (if necessary).
 7. Run the third command in the [`Development` section](#development) to create the virtual environment.
-8. Open the [NOTES.md](NOTES.md) file and install the dependencies according to the [`Example command to install dependencies and development dependencies`](NOTES.md#example-command-to-install-dependencies-and-development-dependencies). Use the first command in the [`Commands` section](NOTES.md#commands) as a template.
+8. Open the [NOTES.md](NOTES.md) file and install the project-specific dependencies according to the first command in the [Commands section](NOTES.md#commands).
 9. Delete the [`Template References` section](NOTES.md#template-references) from the [NOTES.md](NOTES.md) file.
 10. Delete the [`Getting Started` section](#getting-started).
 
