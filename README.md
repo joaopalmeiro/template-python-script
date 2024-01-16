@@ -41,6 +41,10 @@ pipenv install --dev --skip-lock
 ```
 
 ```bash
+pipenv run codespell
+```
+
+```bash
 pipenv run ruff check --verbose .
 ```
 

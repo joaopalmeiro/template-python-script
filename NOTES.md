@@ -23,5 +23,13 @@
 ## Commands
 
 ```bash
-pipenv install --skip-lock ... && pipenv install --dev --skip-lock ruff==0.1.11
+pipenv install --skip-lock ... && pipenv install --dev --skip-lock ruff==0.1.11 codespell==2.2.6
+```
+
+```bash
+pipenv --rm
+```
+
+```bash
+pipenv run codespell --help
 ```
