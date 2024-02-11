@@ -11,6 +11,7 @@
   - https://docs.astral.sh/ruff/configuration/
   - https://docs.astral.sh/ruff/linter/#ruff-check: `ruff check .`
   - https://docs.astral.sh/ruff/formatter/#ruff-format: `ruff format .`
+  - `pipenv run ruff format .`: "warning: The following rules may cause conflicts when used with the formatter: `COM812`, `ISC001`. To avoid unexpected behavior, we recommend disabling these rules, either by removing them from the `select` or `extend-select` configuration, or adding them to the `ignore` configuration."
 - Pipenv:
   - https://github.com/pypa/pipenv/releases
   - https://peps.python.org/pep-0619/ (`3.10.13`)
@@ -47,4 +48,16 @@ pipenv run ruff check --help
 
 ```bash
 pipenv run ruff format --help
+```
+
+```bash
+pipenv run ruff check --verbose .
+```
+
+```bash
+pipenv run ruff check --fix --verbose . && pipenv run ruff format --verbose .
+```
+
+```bash
+pipenv run ruff check --statistics .
 ```

@@ -47,11 +47,15 @@ pipenv run codespell
 ```
 
 ```bash
-pipenv run ruff check --verbose .
+pipenv run ruff check .
 ```
 
 ```bash
-pipenv run ruff check --fix --verbose . && pipenv run ruff format --verbose .
+pipenv run ruff check --fix .
+```
+
+```bash
+pipenv run ruff format .
 ```
 
 ```bash
