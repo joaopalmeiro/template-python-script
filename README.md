@@ -22,13 +22,16 @@ npx degit github:joaopalmeiro/template-python-script --force
 3. Search for `template-python-script` and replace it with the project name.
 4. Search for `Opinionated [Python](https://www.python.org/) template for new scripts.` and replace it with the (short) project description.
 5. Search for `João Palmeiro` and replace it with the author's name.
-6. Run the first two commands in the [`Development` section](#development) to install [pyenv](https://github.com/pyenv/pyenv) and [Pipenv](https://github.com/pypa/pipenv) (if necessary).
-7. Run the third command in the [`Development` section](#development) to create the virtual environment.
-8. Open the [NOTES.md](NOTES.md) file and install the project-specific dependencies according to the first command in the [Commands section](NOTES.md#commands).
-9. Delete the [`Template References` section](NOTES.md#template-references) from the [NOTES.md](NOTES.md) file.
-10. Delete the [`Getting Started` section](#getting-started).
+6. Install [pyenv](https://github.com/pyenv/pyenv) (if necessary).
+7. Run the first two commands in the [`Development` section](#development) to install Python and [Pipenv](https://github.com/pypa/pipenv) (if necessary).
+8. Run the third command in the [`Development` section](#development) to create the virtual environment.
+9. Open the [NOTES.md](NOTES.md) file and install the project-specific dependencies according to the first command in the [Commands section](NOTES.md#commands).
+10. Delete the [`Template References` section](NOTES.md#template-references) from the [NOTES.md](NOTES.md) file.
+11. Delete the [`Getting Started` section](#getting-started).
 
 ## Development
+
+Install [pyenv](https://github.com/pyenv/pyenv) (if necessary).
 
 ```bash
 pyenv install && pyenv versions
